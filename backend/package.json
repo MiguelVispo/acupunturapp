@@ -1,0 +1,30 @@
+{
+    "name": "acupunturapp",
+    "version": "1.0.0",
+    "description": "web consulta acupuntura",
+    "main": "app.js",
+    "scripts": {
+        "initDb": "node ./backend/db/initDb.js",
+        "dev": "nodemon ./app.js"
+    },
+    "keywords": [],
+    "author": "Miguel Vispo Álvarez",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.1",
+        "jsonwebtoken": "^9.0.2",
+        "morgan": "^1.10.0",
+        "mysql2": "^3.6.1",
+        "sharp": "^0.32.6",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.49.0",
+        "nodemon": "^3.0.1",
+        "prettier": "^3.0.3"
+    }
+}
